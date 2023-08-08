@@ -1,0 +1,14 @@
+<div>
+    <mat-sidenav-container class="min-h-screen">
+        <mat-sidenav autoFocus="false" [opened]="isDesktop$" [mode]="isDesktop$ ? 'side' : 'over'"
+            [disableClose]="isDesktop$" [fixedInViewport]="!isDesktop$">
+            <layout-sidenav></layout-sidenav>
+        </mat-sidenav>
+        <mat-sidenav-content>
+            <layout-toolbar></layout-toolbar>
+            <main>
+                <router-outlet></router-outlet>
+            </main>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>
