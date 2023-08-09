@@ -17,12 +17,10 @@ import { SidenavItemComponent } from './@dw/components/sidenav-item/sidenav-item
 @NgModule({
   declarations: [
     AppComponent,
-
     SidenavComponent,
     ToolbarComponent,
     CollaborationComponent,
     SidenavItemComponent,
-
   ],
   imports: [
     BrowserModule,
