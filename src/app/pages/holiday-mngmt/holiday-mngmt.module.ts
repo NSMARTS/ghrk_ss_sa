@@ -4,16 +4,19 @@ import { CountryAddComponent } from './country-add/country-add.component';
 import { CountryHolidayAddComponent } from './country-holiday-add/country-holiday-add.component';
 import { CountryListComponent } from './country-list/country-list.component';
 import { HolidayMngmtRoutingModule } from './holiday-mngmt-routing.module';
+import { MaterialsModule } from 'src/app/materials/materials.module';
 
 @NgModule({
     declarations: [
         CountryListComponent,
         CountryHolidayAddComponent,
-        CountryAddComponent
+        CountryAddComponent,
+
     ],
     imports: [
         CommonModule,
-        HolidayMngmtRoutingModule
+        HolidayMngmtRoutingModule,
+        
     ]
 })
 export class HolidayMngmtModule {}

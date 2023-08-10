@@ -28,11 +28,11 @@ const routes: Routes = [
     ],
   },
   // 잘못된 URL을 사용했을때 메인으로 보냄
-  // {
-  //   path: '**',
-  //   redirectTo: 'main',
-  //   pathMatch: 'full',
-  // },
+  {
+    path: '**',
+    redirectTo: 'main',
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({

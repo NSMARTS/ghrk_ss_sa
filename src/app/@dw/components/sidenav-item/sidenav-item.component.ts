@@ -23,9 +23,9 @@ export class SidenavItemComponent implements OnInit{
   // isCreateSpace = this.isSubheading.isCreateSpace;
 
   constructor(private navigationService: NavigationService) {
-    if(this.isDropdown(this.item)) {
-      effect(() => this.navigationService.openedItem());
-    }
+    // if(this.isDropdown(this.item)) {
+    //   effect(() => this.navigationService.openedItem());
+    // }
   }
 
   ngOnInit(): void {
